@@ -1,0 +1,14 @@
+import tweepy as tw
+import pandas as pd
+import networkx as nx
+import numpy as np
+import matplotlib.pyplot as plt
+
+path = r"C:\Users\Recup\OneDrive\Documentos\Proyecto_Graf\Users.txt"
+    
+archivo = open (path, "wt")
+
+consumer_key= 'b3xOQ7MqJNDFAcXwOx35JdbSX'
+consumer_secret= 'VKQNJCJW05YEFgaA6nfdR4x2BqrvpDdA9s0xykQGGAxGkCT9Bb'
+access_token= '780626992550989824-eDyB0LaTPTYig1JDK5X0t4SQPD7lw6W'
+access_token_secret= 'rOBoLqzODfnRoFn8VbZrJCf7gVfrShaRYZtM3rvOUgtiG'
